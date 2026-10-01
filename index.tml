@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lux Noctis | Velas Aromáticas</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=MedievalSharp&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+
+            <!-- LOGO -->
+            <div class="logo">
+                <h1>🕯️ Lux Noctis</h1>
+            </div>
+
+            <!-- MENU -->
+            <nav class="menu">
+                <ul>
+
+                    <li>
+                        <a href="index.html">Início</a>
+                    </li>
+
+                    <li>
+                        <a href="velas.html">Velas Aromáticas</a>
+                    </li>
+
+                    <li>
+                        <a href="#contato">Fale com o Atelier</a>
+                    </li>
+
+                   <!-- LOGIN / USUÁRIO -->
+                    <li class="login-item" id="areaUsuario">
+
+    <a href="login.html">
+        👤 Login
+    </a>
+
+</li>
+
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="overlay"></div>
+
+        <canvas id="particles"></canvas>
+
+        <div class="hero-content">
+
+            <h2>Lux Noctis</h2>
+
+            <p>
+                Aromas que iluminam noites e despertam antigos encantos...
+            </p>
+
+            <a href="velas.html" class="hero-btn">
+                🕯️ Descobrir as Velas
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- SEÇÃO DE VELAS -->
+        <section class="velas" id="velas">
+
+            <h2>🕯️ Velas Aromáticas</h2>
+
+            <p class="descricao">
+                Entre aromas envolventes e luzes suaves, encontre a vela
+                perfeita para tornar cada noite ainda mais especial.
+            </p>
+
+
+            <!-- CARDS DAS VELAS -->
+            <div class="velas-container">
+
+                <!-- VELA 1 -->
+                <div class="vela-card">
+
+                    <div class="vela-icon">
+                        🌹
+                    </div>
+
+                    <h3>Rosa Medieval</h3>
+
+                    <p>
+                        Um aroma delicado e envolvente inspirado nos jardins
+                        dos antigos castelos.
+                    </p>
+
+                    <a href="#" class="vela-btn">
+                        Conhecer aroma
+                    </a>
+
+                </div>
+
+
+                <!-- VELA 2 -->
+                <div class="vela-card">
+
+                    <div class="vela-icon">
+                        🌿
+                    </div>
+
+                    <h3>Ervas da Floresta</h3>
+
+                    <p>
+                        Notas verdes e naturais que lembram as antigas
+                        florestas encantadas.
+                    </p>
+
+                    <a href="#" class="vela-btn">
+                        Conhecer aroma
+                    </a>
+
+                </div>
+
+
+                <!-- VELA 3 -->
+                <div class="vela-card">
+
+                    <div class="vela-icon">
+                        🪵
+                    </div>
+
+                    <h3>Madeira & Âmbar</h3>
+
+                    <p>
+                        Um perfume quente e misterioso inspirado nos salões
+                        iluminados por velas.
+                    </p>
+
+                    <a href="#" class="vela-btn">
+                        Conhecer aroma
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TIPOS DE VELAS -->
+        <section class="pergaminho">
+
+            <h2>Tipos de Velas</h2>
+
+            <p>
+                Da delicadeza das pequenas velas às peças que transformam
+                o ambiente, a Lux Noctis reúne diferentes formas e aromas
+                para cada momento.
+            </p>
+
+            <a href="#" class="pergaminho-btn">
+                🕯️ Ver tipos de velas
+            </a>
+
+        </section>
+
+
+        <!-- CONTATO -->
+        <section class="contato" id="contato">
+
+            <h2>📜 Fale com o Atelier</h2>
+
+            <p>
+                Deseja saber mais sobre nossos aromas ou encontrar a vela
+                ideal para sua noite?
+            </p>
+
+            <a href="#" class="contato-btn">
+                ✉️ Entrar em contato
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- GALERIA -->
+    <section class="galeria">
+
+        <img
+            src="vela1.jpg"
+            alt="Vela aromática da Lux Noctis">
+
+        <img
+            src="vela2.jpg"
+            alt="Velas aromáticas em ambiente medieval">
+
+    </section>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
